@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #262626;
+    color:#ddd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    width:90%;
+    margin:0 auto;
+    margin-top:30px;
+    background-image: linear-gradient(crimson, navy);
+    border-radius: 20px;
+    padding:30px;
+}
+main h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+main form{
+    margin-top:10px;
+}
+main form input{
+    display:block;
+    width:100%;
+    margin:7px 0;
+    padding:10px 15px;
+    border-radius: 7px;
+    background-color:#262626;
+    border: 0;
+    color:white;
+    font-size: 15px;
+}
+main form input:focus{
+    outline: none;
+}
+main form label{
+    font-size:20px;
+}
+main button{
+    padding:10px 15px;
+    font-size: 16px;
+    margin:12px 0;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    border:0;
+}
+main button:hover{
+    background-color: #b9b9b9;
+    color:black;
+}
+
+.results{
+    margin-bottom:10px;
+    display: none;
+}
+.results h6{
+    font-size: 23px;
+}
+.results #score{
+    background-color: green;
+    display: inline-block;
+    padding:10px 15px;
+    font-size: 35px;
+    border-radius: 8px;
+    font-weight: 900;
+    margin:10px 0;
+    color:#262626;
+}
+.results h4{
+    font-size: 18px;
+}
+.values p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.values h2{
+    margin-top:13px;
+    margin-bottom:7px;
+}
+.values{
+    border-top: 1px solid #ddd;
+    margin-top:15px;
+}
